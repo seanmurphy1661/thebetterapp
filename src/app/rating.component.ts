@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core'
         templateUrl: 'rating.component.html',
         styles: [  `
             .glyphicon-star { 
-                color:orange;
+                color:red;
             }
         `]
 })
