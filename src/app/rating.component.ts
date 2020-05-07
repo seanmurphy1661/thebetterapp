@@ -11,7 +11,8 @@ import { Component, Input } from '@angular/core'
 })
 
 export class RatingComponent{
-    @Input() rating = 0;
+    @Input('rating-value') rating = 0;
+    @Input() numOfReviews = 0;
 
     onClick(ratingValue){
         this.rating = ratingValue;

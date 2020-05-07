@@ -3,13 +3,8 @@ import { ProductService } from './product.service';
 
 @Component({
     selector: 'products',
-    template: `<h2>Products</h2>
-        <ul>
-        <li *ngFor="let product of products">
-            {{product}}
-        </li>
-        </ul>
-    `
+    templateUrl: './products.component.html',
+    providers: [ProductService]
 })
 
 export class ProductsComponent {
