@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './products.component';
 import { ProductComponent } from './product.component';
 import { RatingComponent } from './rating.component';
-import { from } from 'rxjs';
+import { TruncatePipe } from './truncate.pipe';
+
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { from } from 'rxjs';
     ,ProductComponent
     ,ProductsComponent
     ,RatingComponent
+    ,TruncatePipe
   ],
   imports: [
     BrowserModule,

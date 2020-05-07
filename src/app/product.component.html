@@ -21,7 +21,7 @@
             <div *ngSwitchCase="5">Excellent</div>
             <div *ngSwitchDefault>Not Rated</div>
         </div>                
-        <br>                                            
-        {{ data.description  }}
+        <br>     
+        {{ data.description | truncate:150  }}                                  
     </div>
 </div>    
